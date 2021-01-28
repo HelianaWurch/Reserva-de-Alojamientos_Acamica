@@ -1,0 +1,33 @@
+.App {
+	font-family: sans-serif;
+	text-align: center;
+}
+
+.input-group {
+	margin: 1rem;
+}
+
+.icons {
+	color: #ffffff;
+	padding: 15px;
+	margin: 10px 0;
+}
+
+.price-span {
+	display: flex;
+	align-items: center;
+	margin: 10px 0;
+	height: 50px;
+}
+
+.price-icons {
+	color: #ffffff;
+	align-items: center;
+	padding: 5px;
+}
+
+.info {
+	padding: 15px 10px;
+	margin: 10px 0;
+	background-color: #e8e8e8;
+}
