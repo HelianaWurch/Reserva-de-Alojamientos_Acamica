@@ -1,6 +1,7 @@
 const today = new Date();
 const hotelsData = [
 	{
+		id: "01",
 		slug: "la-bamba-de-areco",
 		name: "La Bamba de Areco",
 		photo: "./images/la-bamba-de-areco.jpg",
@@ -14,6 +15,7 @@ const hotelsData = [
 		price: 4,
 	},
 	{
+		id: "02",
 		slug: "sainte-jeanne",
 		name: "Sainte Jeanne Boutique & Spa",
 		photo: "./images/sainte-jeanne.jpg",
@@ -27,6 +29,7 @@ const hotelsData = [
 		price: 2,
 	},
 	{
+		id: "03",
 		slug: "entre-cielos",
 		name: "Entre Cielos",
 		photo: "./images/entre-cielos.jpg",
@@ -40,6 +43,7 @@ const hotelsData = [
 		price: 4,
 	},
 	{
+		id: "04",
 		slug: "huacalera",
 		name: "Hotel Huacalera",
 		photo: "./images/huacalera.jpg",
@@ -53,6 +57,7 @@ const hotelsData = [
 		price: 1,
 	},
 	{
+		id: "05",
 		slug: "merced-del-alto",
 		name: "La Merced del Alto",
 		photo: "./images/merced-del-alto.jpg",
@@ -66,6 +71,7 @@ const hotelsData = [
 		price: 2,
 	},
 	{
+		id: "06",
 		slug: "azur-real",
 		name: "Azur Real Hotel",
 		photo: "./images/azur-real.jpg",
@@ -79,6 +85,7 @@ const hotelsData = [
 		price: 1,
 	},
 	{
+		id: "07",
 		slug: "rincon-del-socorro",
 		name: "Rincón del Socorro",
 		photo: "./images/rincon-del-socorro.jpg",
@@ -92,6 +99,7 @@ const hotelsData = [
 		price: 2,
 	},
 	{
+		id: "08",
 		slug: "luma-casa-de-montana",
 		name: "Luma Casa de Montaña",
 		photo: "./images/luma-casa-de-montana.jpg",
@@ -105,6 +113,7 @@ const hotelsData = [
 		price: 2,
 	},
 	{
+		id: "09",
 		slug: "casa-turquesa",
 		name: "Casa Turquesa",
 		photo: "./images/casa-turquesa.jpg",
@@ -118,6 +127,7 @@ const hotelsData = [
 		price: 3,
 	},
 	{
+		id: "10",
 		slug: "vila-da-santa",
 		name: "Vila Da Santa",
 		photo: "./images/vila-da-santa.jpg",
@@ -131,6 +141,7 @@ const hotelsData = [
 		price: 3,
 	},
 	{
+		id: "11",
 		slug: "uxua-casa",
 		name: "UXUA Casa Hotel & Spa",
 		photo: "./images/uxua-casa.jpg",
@@ -144,6 +155,7 @@ const hotelsData = [
 		price: 4,
 	},
 	{
+		id: "12",
 		slug: "ponta-dos-ganchos",
 		name: "Ponta dos Ganchos",
 		photo: "./images/uxua-casa.jpg",
@@ -157,6 +169,7 @@ const hotelsData = [
 		price: 4,
 	},
 	{
+		id: "13",
 		slug: "alto-atacama",
 		name: "Alto Atacama",
 		photo: "./images/alto-atacama.jpg",
@@ -170,6 +183,7 @@ const hotelsData = [
 		price: 4,
 	},
 	{
+		id: "14",
 		slug: "tierra-patagonia",
 		name: "Tierra Patagonia",
 		photo: "./images/tierra-patagonia.jpg",
@@ -183,6 +197,7 @@ const hotelsData = [
 		price: 4,
 	},
 	{
+		id: "15",
 		slug: "vira-vira",
 		name: "Vira Vira",
 		photo: "./images/vira-vira.jpg",
@@ -196,6 +211,7 @@ const hotelsData = [
 		price: 4,
 	},
 	{
+		id: "16",
 		slug: "vik-chile",
 		name: "Vik Chile",
 		photo: "./images/vik-chile.jpg",
@@ -209,6 +225,7 @@ const hotelsData = [
 		price: 4,
 	},
 	{
+		id: "17",
 		slug: "casa-higueras",
 		name: "Casa Higueras",
 		photo: "./images/casa-higueras.jpg",
@@ -222,6 +239,7 @@ const hotelsData = [
 		price: 4,
 	},
 	{
+		id: "18",
 		slug: "campo-tinto",
 		name: "Campo Tinto",
 		photo: "./images/campo-tinto.jpg",

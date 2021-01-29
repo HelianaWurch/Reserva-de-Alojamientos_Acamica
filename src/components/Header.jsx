@@ -8,7 +8,7 @@ function Header(props) {
 				<h6>
 					Hoteles de <strong>{props.filtersState.country}</strong> desde el
 					<strong> martes, 1 de enero de 2019</strong> hasta el {""}
-					<strong>miercoles, 2 de Febrero 2019</strong>
+					<strong>miercoles, 2 de Febrero 2019</strong> {props.count}
 				</h6>
 			</div>
 		</header>

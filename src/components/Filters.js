@@ -1,8 +1,10 @@
 import React from "react";
-import MainResults from "./MainResults";
-import hotelsData from "../data";
 
 class Filters extends React.Component {
+	constructor(props) {
+		super(props);
+	}
+
 	render() {
 		return (
 			<section className="container-fluid bg-primary p-3 px-5">
@@ -29,13 +31,13 @@ class Filters extends React.Component {
 							id="countrySelect"
 							name="country"
 							value={this.props.country}
-							onChange={this.props.handleChange}
+							onChange={this.props.handleCountry}
 						>
 							<option value="">Todos los Paises </option>
-							<option value="argentina"> Argentina </option>
-							<option value="brasil"> Brasil </option>
-							<option value="chile"> Chile </option>
-							<option value="uruguay"> Uruguay </option>
+							<option value="Argentina"> Argentina </option>
+							<option value="Brasil"> Brasil </option>
+							<option value="Chile"> Chile </option>
+							<option value="Uruguay"> Uruguay </option>
 						</select>
 					</div>
 
@@ -45,7 +47,7 @@ class Filters extends React.Component {
 							id="priceSelect"
 							name="price"
 							value={this.props.price}
-							onChange={this.props.handleChange}
+							onChange={this.props.handlePrice}
 						>
 							<option value=""> Cualquier Precio </option>
 							<option value="1"> $ </option>
@@ -60,7 +62,7 @@ class Filters extends React.Component {
 							id="hotelSizeSelect"
 							name="hotelSize"
 							value={this.props.hotelSize}
-							onChange={this.props.handleChange}
+							onChange={this.props.handleHotelSize}
 						>
 							<option value="">Cualquier Tamaño</option>
 							<option value="small"> Hotel Pequeño </option>
@@ -69,9 +71,9 @@ class Filters extends React.Component {
 						</select>
 					</div>
 				</form>
-				<p>Pais: {this.props.filtersState.country}</p>
-				<p>Precio: {this.props.filtersState.price}</p>
-				<p>Tamaño: {this.props.filtersState.hotelSize}</p>
+				{/* <p>Pais: {this.props.filtersState.country}</p>
+        <p>Precio: {this.props.filtersState.price}</p>
+        <p>Tamaño: {this.props.filtersState.hotelSize}</p> */}
 			</section>
 		);
 	}
