@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Roboto:wght@400;700;900&display=swap");
+
 .App {
 	font-family: sans-serif;
 	text-align: center;
@@ -30,4 +32,75 @@
 	padding: 15px 10px;
 	margin: 10px 0;
 	background-color: #e8e8e8;
+}
+
+.btn-info {
+	background-color: #005579;
+	border-color: #005579;
+}
+
+.bg-info {
+	background-color: #c5e9ff !important;
+}
+
+.btn-info:hover {
+	background-color: #ffa142;
+	border-color: #ffa142;
+}
+
+.bg-primary {
+	background-color: #005579 !important;
+}
+
+.card:hover {
+	cursor: pointer;
+	-webkit-transform: scale(1.03);
+	-moz-transform: scale(1.03);
+	-ms-transform: scale(1.03);
+	-o-transform: scale(1.03);
+	transform: scale(1.03);
+	-webkit-transition: all 0.5s ease-in-out; /* Safari y Chrome */
+	-moz-transition: all 0.5s ease-in-out; /* Firefox */
+	-o-transition: all 0.5s ease-in-out; /* IE 9 */
+	-ms-transition: all 0.5s ease-in-out; /* Opera */
+}
+
+.sad-face {
+	font-size: 1000%;
+	color: #005579;
+}
+
+header {
+	padding: 10px 130px;
+	display: flex;
+	justify-content: left;
+}
+
+header div {
+	margin: 15px 0;
+	align-items: center;
+}
+
+header h1,
+h6 {
+	color: #005579;
+}
+
+header h1 {
+	font-weight: 700;
+}
+
+h1,
+h2,
+h6 {
+	font-family: Montserrat;
+}
+
+@media screen and (min-width: 992px) {
+	.filters-container {
+		position: -webkit-sticky;
+		position: sticky;
+		top: 0;
+		z-index: 1;
+	}
 }
