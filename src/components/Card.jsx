@@ -30,7 +30,7 @@ function Card(props) {
 							<span className="price-span bg-primary mx-2">{listIcons(props.hotel)}</span>
 						</div>
 					</div>
-					<button type="button" className="btn btn-info btn-lg btn-block" onClick={console.log("boton")}>
+					<button type="button" className="btn btn-info btn-lg btn-block">
 						Reservar
 					</button>
 				</div>

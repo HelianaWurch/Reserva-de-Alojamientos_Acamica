@@ -1,6 +1,6 @@
 import React from "react";
 import MainContent from "./MainContent";
-import DateError from "./DateError";
+import NoResults from "./NoResults";
 import ResetBtn from "./ResetBtn";
 
 class Filters extends React.Component {
@@ -76,6 +76,8 @@ class Filters extends React.Component {
 				this.checkDateFilterValue(item)
 			);
 		});
+
+		const errorDate = "ha ingresado una fecha incorrecta, por favor ingrese una fecha valida.";
 
 		return (
 			<section>
@@ -167,7 +169,7 @@ class Filters extends React.Component {
 					{this.props.filtersState.checkIn !== "" &&
 					this.props.filtersState.checkOut !== "" &&
 					this.props.filtersState.checkIn >= this.props.filtersState.checkOut ? (
-						<DateError />
+						<NoResults msg={errorDate} />
 					) : (
 						<MainContent hotels={filterData} />
 					)}
